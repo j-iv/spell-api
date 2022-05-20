@@ -3,8 +3,11 @@ const app = express()
 require('dotenv').config()
 const fs = require('fs')
 
-const port = process.env.PORT
+let port = process.env.PORT
 
+if (port == null || port == "") {
+    port = 8000;
+  }
 
 app.get('/', (req,res) => {
     res.end('Hello World!');
