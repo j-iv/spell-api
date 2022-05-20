@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Celestial",
+        "type": "spell"
+    },
+    {
+        "name": "Chaos",
+        "type": "spell"
+    },
+    {
+        "name": "Charm",
+        "type": "spell"
+    }
+]
